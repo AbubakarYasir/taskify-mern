@@ -128,3 +128,23 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# MongoDB data (if using local MongoDB)
+data/db/
+
+# VSCode specific settings and extensions
+.vscode/
+
+# IDE specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Docker-related files
+docker-compose.override.yml
+.docker/
+
+# Miscellaneous temporary files
+*.swp
+.DS_Store
+Thumbs.db
